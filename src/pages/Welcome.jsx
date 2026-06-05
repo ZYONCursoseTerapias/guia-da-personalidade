@@ -38,7 +38,7 @@ export default function Welcome() {
               O que torna esse modelo tão especial é que ele não coloca as pessoas em caixas. Cada traço é medido em uma <strong className="text-brand-dark">escala variável</strong>, o que significa que você pode apresentar mais ou menos de cada característica. Essa combinação de níveis é única em cada pessoa e forma o seu perfil individual.
             </p>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Para ir além da superfície, cada traço se divide em <strong className="text-brand-dark">6 facetas</strong>. As facetas são aspectos mais específicos dentro de cada traço e mostram com muito mais precisão como você se comporta nos relacionamentos, no trabalho, na forma como lida com as emoções e nas decisões do cotidiano. Ao todo, são <strong className="text-brand-dark">30 facetas</strong> que compõem o seu perfil completo.
+              Para ir além da superfície, cada traço se divide em <strong className="text-brand-dark">6 facetas</strong>. As facetas são aspectos mais específicos dentro de cada traço e mostram com muito mais precisão como você se comporta nos relacionamentos, no trabalho, na forma como lida com as emoções e nas decisões do cotidiano. Ao todo, são <strong className="text-brand-dark">30 características</strong> que compõem o seu perfil de personalidade completo.
             </p>
           </div>
 
