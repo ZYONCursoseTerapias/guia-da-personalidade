@@ -17,7 +17,7 @@ export default function Registration() {
     ev.preventDefault()
     const e = validate()
     if (Object.keys(e).length) { setErrors(e); return }
-    sessionStorage.setItem('raio_x_user', JSON.stringify(form))
+    sessionStorage.setItem('guia_user', JSON.stringify(form))
     navigate('/teste')
   }
 
