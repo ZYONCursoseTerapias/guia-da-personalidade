@@ -252,6 +252,6 @@ export const facetDescriptions = {
   },
 }
 
-export const ctaText = `Quer entender com ainda mais profundidade o que cada característica revela sobre você? Em uma sessão personalizada, exploramos juntas os detalhes do seu perfil e como aplicar esse autoconhecimento na sua vida real.`
-export const ctaButton = 'Agendar minha sessão'
-export const ctaLink = 'https://wa.me/55SEUNUMERO'
+export const ctaText = `Quer entender, com ainda mais profundidade, o que cada característica revela sobre você? Em uma sessão personalizada, exploramos, juntas, os detalhes do seu perfil e como aplicar esse autoconhecimento na sua vida cotidiana.`
+export const ctaButton = 'Agendar minha sessão do Guia da Personalidade'
+export const ctaLink = 'https://wa.me/5511957947776'
