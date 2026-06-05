@@ -221,7 +221,9 @@ export default function Results() {
             <p className="text-brand-light text-xs font-medium tracking-widest uppercase">Próximo passo</p>
             <h3 className="text-2xl font-bold">Entenda o seu mapa completo</h3>
           </div>
-          <p className="text-green-100 leading-relaxed max-w-md mx-auto text-sm">{ctaText}</p>
+          <div className="text-green-100 leading-relaxed max-w-md mx-auto text-sm space-y-2">
+            {ctaText.split('\n').map((line, i) => <p key={i}>{line}</p>)}
+          </div>
           <a
             href={ctaLink}
             target="_blank"
