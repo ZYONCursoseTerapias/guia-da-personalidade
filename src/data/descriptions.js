@@ -2,94 +2,34 @@ export const bigFiveIntro = `O Big Five é um dos modelos de personalidade mais 
 
 export const pillarDescriptions = {
   abertura: {
-    what: 'Abertura à Experiência mede o quanto você se relaciona com ideias novas, experiências diferentes e formas de pensar que ainda não são as suas. Não é sobre ser criativa ou intelectual. É sobre o quanto você busca o que não conhece como estímulo, e o quanto prefere o que já domina como segurança.',
-    Alta: `Você não processa as coisas de forma linear. Uma ideia leva a outra, que leva a uma pergunta, que abre 3 possibilidades novas antes de você ter respondido a primeira. Para quem está do lado de fora, isso pode parecer falta de foco. Para você, é simplesmente a forma como seu pensamento funciona.
-
-Você enxerga o que não está explícito. Percebe conexões entre coisas que ninguém teria relacionado. Chega a conclusões que outras pessoas só vão entender depois que você explicar. Isso é uma capacidade real — e é exatamente o que faz de você alguém difícil de encaixar em qualquer caixa.
-
-O custo dessa forma de funcionar é uma mente que raramente está quieta. Você provavelmente já foi chamada de intensa, de complicada, de alguém que pensa demais. O que ninguém te disse é que pensar muito não é o problema. O problema é não saber para qual das 10 direções vale a pena ir.`,
-    Média: `Você consegue se interessar por coisas novas sem precisar entender tudo sobre elas. Consegue explorar sem se perder no meio do caminho. Isso parece óbvio e não é — muita gente ou entra de cabeça em tudo ou não entra em nada.
-
-Você tem critério. Não está aberta para tudo o tempo todo, mas também não está fechada para o que não conhece. Você avalia antes de investir — e isso te protege de gastar energia onde não vale.
-
-O que vale observar é o seguinte: o filtro que te protege às vezes também te impede. Nem tudo que parece desnecessário é desnecessário. Às vezes é só desconfortável. E desconforto não é o mesmo que irrelevante.`,
-    Baixa: `Você não precisa de novidade para funcionar bem. Enquanto outras pessoas estão experimentando o próximo método, a próxima abordagem, a próxima tendência, você está aprofundando o que já domina. E aprofundamento real produz resultados que experimentação superficial nunca vai alcançar.
-
-Você respeita o que já sabe. Não descarta experiência acumulada por algo que ainda não foi testado. Isso é discernimento — e é mais raro do que parece.
-
-A questão que vale se fazer é a seguinte: existe diferença entre escolher o que já funciona e evitar o que é desconfortável. São 2 coisas muito parecidas por fora e muito diferentes por dentro. Você sabe qual das 2 está fazendo em cada situação?`,
+    what: 'Abertura à Experiência é a forma como você se relaciona com o novo. Mede o quanto você busca ideias diferentes, experiências desconhecidas e perspectivas que ainda não são as suas. Ou o quanto prefere o que já conhece, o que já testou, o que já domina. Mais do que curiosidade, esse traço revela como você processa o mundo: se você tende a expandir ou a aprofundar.',
+    Alta: 'Você tem uma mente inquieta e curiosa. Gosta de aprender, de explorar ideias, de questionar o que parece óbvio. Se interessa por arte, cultura, psicologia e por qualquer assunto que vá além da superfície. Conecta informações de formas que outras pessoas não conseguem. Pensa em profundidade, raramente se satisfaz com respostas simples e costuma enxergar o mundo em camadas que a maioria não percebe. Sua maior riqueza é exatamente essa capacidade de ver além do que está explícito.',
+    Média: 'Você tem curiosidade real, mas também sabe quando parar. Se interessa por coisas novas quando fazem sentido para você, sem precisar explorar tudo o tempo todo. Consegue inovar quando a situação pede e manter o que funciona quando não pede. Você equilibra abertura e praticidade de uma forma que muita gente não consegue, e isso te torna adaptável sem ser dispersa.',
+    Baixa: 'Você valoriza o que já conhece. Prefere o concreto ao abstrato, o testado ao experimental, o estável ao incerto. Não precisa de novidade para se sentir estimulada. Tem profundidade no que domina, confiança no que já sabe e uma consistência que quem está sempre começando do zero nunca vai ter. Sua força está exatamente no que você já construiu.',
   },
   conscienciosidade: {
-    what: 'Conscienciosidade mede como você lida com responsabilidade, organização e compromisso. Revela se você tende a planejar antes de agir, se cumpre o que promete, se mantém o foco quando as coisas ficam difíceis, e como você se comporta quando ninguém está olhando.',
-    Alta: `Você não precisa de cobrança externa para fazer o que precisa ser feito. O prazo existe na sua cabeça antes de existir no papel. O trabalho já começou quando as outras pessoas ainda estão decidindo por onde começar. Você entrega — e entrega bem.
-
-As pessoas ao seu redor sabem que quando você se compromete com algo, aquilo vai acontecer. Essa confiança tem um peso que vai muito além da produtividade. Ela define a forma como você é vista — e a quantidade de responsabilidade que os outros depositam em você, muitas vezes sem nem perguntar se você quer carregar.
-
-O que ninguém costuma te dizer é o seguinte: a mesma exigência que produz resultados extraordinários, quando virada para dentro sem revisão, produz esgotamento. E esgotamento que vem da disciplina tem uma aparência muito parecida com dedicação. Você consegue distinguir os 2?`,
-    Média: `Você se organiza quando precisa. Cumpre o que promete na maior parte das vezes. Tem responsabilidade — mas não deixa que ela controle tudo.
-
-Isso é mais raro do que parece. A maioria das pessoas oscila entre excesso de controle e ausência de estrutura. Você consegue transitar entre os 2, dependendo do que a situação pede.
-
-A pergunta que vale se fazer é sobre o que acontece quando uma tarefa fica longa, difícil ou pouco estimulante. A motivação inicial dá conta do começo. O que te mantém quando o começo já passou?`,
-    Baixa: `Você não funciona bem dentro de rotinas rígidas — e provavelmente já ouviu que isso é um problema. Não é. É uma forma de trabalhar que tem custo em alguns contextos e vantagem real em outros.
-
-Você responde melhor à realidade do que ao planejamento. Quando algo muda, você muda junto, sem o peso de ter que abandonar um plano todo estruturado. Você age melhor quando tem espaço para improvisar e pensa melhor quando não está engessada numa lista.
-
-O risco específico aqui é o padrão de início sem conclusão. Projetos que começam com energia e perdem força no meio. Compromissos assumidos com intenção real e não cumpridos. Isso não é falta de capacidade. É ausência de um sistema que funcione para o seu jeito de ser. Descobrir qual é esse sistema é o trabalho.`,
+    what: 'Conscienciosidade é a forma como você lida com responsabilidade, compromisso e organização. Mede o quanto você planeja antes de agir, cumpre o que promete e mantém o foco quando as coisas ficam difíceis. É o traço que revela como você se comporta quando a tarefa é longa, quando ninguém está olhando e quando o resultado depende só de você.',
+    Alta: 'Você é organizada, disciplinada e confiável. Planeja antes de agir, cumpre prazos sem precisar ser cobrada e entrega o que promete. Tem padrões altos para tudo o que faz e dificilmente considera algo pronto antes de estar de verdade. As pessoas sabem que podem contar com você. Seu nível de comprometimento é raro e reconhecido por quem convive de perto.',
+    Média: 'Você tem responsabilidade sem ser rígida. Se organiza quando precisa, cumpre o que promete na maior parte das vezes e consegue trabalhar tanto com estrutura quanto sem ela. Não depende de uma rotina perfeita para funcionar, mas também não abre mão de cumprir o que é importante. Você sabe bem o que merece esforço total e o que pode ser feito de qualquer jeito.',
+    Baixa: 'Você funciona melhor com liberdade do que com estrutura. Prefere o improviso ao planejamento, a flexibilidade à rotina e a espontaneidade ao controle. Tem dificuldade com tarefas longas e repetitivas, mas responde muito bem a situações que pedem agilidade e adaptação. Seu jeito de trabalhar não é o mais convencional, mas tem um valor que ambientes rígidos raramente reconhecem.',
   },
   extroversao: {
-    what: 'Extroversão mede de onde você retira energia. Não é sobre ser comunicativa ou sociável. É sobre o que te recarrega e o que te drena. Pessoas com extroversão alta se energizam no contato com outras pessoas. Pessoas com extroversão baixa se energizam no silêncio e na quietude. A maioria fica em algum ponto entre os 2.',
-    Alta: `Você pensa melhor quando pode falar. Processa o que sente contando para alguém. Se energiza no contato com pessoas — não porque precisa de aprovação, mas porque é assim que sua mente funciona. Uma conversa boa te deixa mais viva. Ficar sozinha por muito tempo te drena de um jeito que vai além do tédio.
-
-Isso aparece nos seus relacionamentos: você é quem puxa o assunto, quem mantém o grupo unido, quem lembra de entrar em contato. Pessoas naturalmente se aproximam de quem funciona assim.
-
-O que nem sempre aparece nesse perfil é o seguinte: quem está sempre com pessoas pode estar, sem perceber, evitando as conversas que só acontecem em silêncio. As perguntas que só aparecem quando não há ninguém para responder. O autoconhecimento que não vem de fora.`,
-    Média: `Você consegue ser a pessoa animada da sala e a pessoa quieta do canto — dependendo do dia, da situação e de quem está presente. Não depende de pessoas para se sentir bem. E também não precisa de isolamento para se recompor.
-
-Você lê o ambiente e ajusta, sem custo alto, sem precisar se forçar. Isso significa que você funciona em contextos muito diferentes — e isso é uma vantagem real que a maioria das pessoas não tem.
-
-Existe um risco específico de quem se adapta bem: o de se tornar invisível. Quem consegue se encaixar em qualquer situação às vezes não é reconhecida em nenhuma delas. Você sabe quem você é quando não está se adaptando a nada?`,
-    Baixa: `Você não precisa de muito para se sentir bem — e essa é uma capacidade, não uma limitação. Você não depende de ambiente externo, de companhia constante, de estímulos contínuos para funcionar. Você se recarrega internamente.
-
-Você tem uma concentração que ambientes muito agitados destroem em outras pessoas. Pensa com mais profundidade quando há quietude. Cria mais quando está sozinha. Processa melhor sem interrupção.
-
-O que vale observar é específico: você provavelmente já perdeu oportunidades porque esperou a situação certa para se posicionar, e a situação certa não chegou. O mundo nem sempre reconhece o que não aparece. E às vezes aparecer é uma escolha que precisa ser feita de forma deliberada.`,
+    what: 'Extroversão mede de onde você retira energia. Não é sobre ser comunicativa ou sociável. É sobre o que te recarrega e o que te drena. Pessoas com extroversão alta se energizam no contato com outras pessoas. Pessoas com extroversão baixa se energizam no silêncio e na quietude. A maioria fica em algum ponto entre os 2 extremos.',
+    Alta: 'Você se energiza com pessoas. Pensa melhor quando pode falar, processa o que sente contando para alguém e se sente mais viva em ambientes com movimento e interação. É comunicativa, animada e costuma ser quem puxa o assunto e mantém o grupo unido. Ambientes sociais te estimulam em vez de te esgotar. Você sai de uma reunião intensa com mais disposição do que entrou.',
+    Média: 'Você consegue ser a pessoa animada da sala e a pessoa quieta do canto, dependendo do dia e da situação. Não depende de pessoas para se sentir bem, mas também não precisa de isolamento para se recompor. Lê o ambiente e ajusta sem custo alto. Funciona bem tanto em contextos de muita interação quanto em contextos mais tranquilos.',
+    Baixa: 'Você se recarrega no silêncio. Grupos grandes te cansam, conversas superficiais te esgotam e ambientes com muito movimento tiram sua energia em vez de repor. Você é seletiva com onde coloca sua atenção e com quem escolhe para perto. Prefere 1 conversa real a 10 conversas rápidas. Pensa com mais profundidade quando há quietude e cria mais quando está sozinha.',
   },
   amabilidade: {
-    what: 'Amabilidade mede como você se relaciona com as necessidades dos outros. O quanto você coopera, confia, perdoa, cuida. Não é sobre ser boa pessoa. É sobre onde você coloca sua atenção quando outra pessoa está presente: em você ou nela.',
-    Alta: `Você percebe as pessoas antes de elas perceberem que precisam ser percebidas. Quando alguém está desconfortável numa sala, você nota. Quando uma conversa muda de tom, você sente antes de processar o motivo. Isso não é habilidade desenvolvida. É a forma como você naturalmente processa quem está ao seu redor.
-
-As pessoas sentem isso em você sem conseguir nomear. Procuram você para conversar, confiam coisas que não contariam a outros, se sentem seguras perto de você. Você cria um tipo de conexão que é raro. Mas que também tem um custo que raramente aparece na conta.
-
-Esse custo é o seguinte: quando você cuida de todo mundo o tempo todo, quem cuida de você fica em segundo plano. Não porque as pessoas não se importam. Mas porque você raramente demonstra precisar. E quem nunca demonstra precisar raramente recebe sem pedir.`,
-    Média: `Você cuida das pessoas — mas também cuida de si. Ajuda porque quer, não porque não consegue dizer não. É empática sem ser permissiva. Cuida sem se apagar no processo.
-
-Isso é mais raro do que parece. A maioria das pessoas ou cede demais ou se fecha demais. Você aprendeu — ou está aprendendo — a fazer os 2 ao mesmo tempo.
-
-O que merece atenção é o que acontece quando o estresse é alto e a pressão vem de alguém importante para você. Nesses momentos, o equilíbrio oscila. Para qual lado ele costuma ir no seu caso — e o que isso te custa?`,
-    Baixa: `Você não ajusta o que pensa para não desconfortar quem está ouvindo. Não suaviza o que é real para proteger quem não quer ouvir. Você é direta — e essa diretividade é uma forma de respeito que muita gente confunde com dureza.
-
-Você não confunde harmonia com verdade. Consegue discordar sem romper. Pode não ceder sem ser agressiva. Fala o que pensa sem precisar se desculpar por isso.
-
-O que vale observar é a distância entre como você entrega a verdade e como a outra pessoa consegue recebê-la. Você pode estar sendo completamente honesta e a outra pessoa pode estar ouvindo algo completamente diferente. Não é que você precise mudar o conteúdo. Às vezes é só a forma que precisa mudar.`,
+    what: 'Amabilidade mede como você se relaciona com as necessidades das pessoas ao seu redor. O quanto você coopera, confia, cuida e coloca o bem-estar do outro como prioridade. Não é sobre ser boa ou má pessoa. É sobre onde você naturalmente coloca sua atenção quando está com alguém: em você ou nela.',
+    Alta: 'Você é empática, gentil e atenta às pessoas. Percebe quando alguém está desconfortável antes de qualquer palavra ser dita. Cuida, mesmo quando não foi pedido. Cria vínculos com facilidade e faz as pessoas se sentirem seguras e acolhidas perto de você. Prioriza a harmonia nos relacionamentos e vai longe para evitar conflitos desnecessários. As pessoas vão até você quando precisam de apoio de verdade.',
+    Média: 'Você se importa com as pessoas, mas também tem limites. Ajuda porque quer, não porque não consegue dizer não. É empática sem ser permissiva e gentil sem se apagar no processo. Consegue cuidar dos outros sem deixar de cuidar de si mesma. Esse equilíbrio entre empatia e limite poucas pessoas conseguem de verdade.',
+    Baixa: 'Você é direta, objetiva e não abre mão do que pensa para agradar. Prioriza a verdade em vez da harmonia e trata as pessoas como adultas capazes de ouvir o que é real. Não tem dificuldade com conflito quando ele é necessário e defende suas posições com firmeza. Sua objetividade é uma forma de respeito que muita gente leva tempo para entender.',
   },
   neuroticismo: {
-    what: 'Neuroticismo mede a intensidade com que você sente as emoções difíceis: ansiedade, irritação, insegurança, tristeza. Um número alto significa que seu sistema emocional responde com força a situações de estresse. Um número baixo significa que você tende a ser estável emocionalmente, mesmo sob pressão.',
-    Alta: `Você sente rápido e com intensidade. Uma mudança de plano de última hora já chegou como problema antes de você avaliar se é. Uma palavra no tom errado já foi processada como sinal antes de você ter contexto suficiente. Seu interior não espera confirmação para reagir. Ele reage — e depois você decide o que fazer com isso.
-
-Isso não é um defeito. É uma forma de sentir que tem custos reais, mas também tem algo que quem sente menos simplesmente não tem: você percebe o que não foi dito numa conversa. Sente quando algo está errado antes de qualquer evidência concreta. Antecipa situações que outros vão entender só quando chegarem.
-
-O trabalho não é sentir menos. É aprender a distinguir o que merece sua atenção do que está apenas passando. Seu interior dispara para tudo com a mesma intensidade — e nem tudo merece o mesmo peso.`,
-    Média: `Você sente as coisas, mas não fica presa nelas. Passa por períodos difíceis sem perder o fio de volta para si mesma. Não é imune ao estresse — mas também não fica dominada por ele.
-
-Essa estabilidade foi construída. Você provavelmente já passou por situações que testaram sua capacidade de se manter inteira, e saiu delas com mais recursos do que tinha antes.
-
-A questão que vale se fazer é sobre o que você faz com o que sente quando não está em crise. Funcionar bem às vezes é mantido pelo hábito de guardar as coisas para sentir depois. E o depois nem sempre chega. O que você está adiando sentir?`,
-    Baixa: `Você raramente perde o controle em público. Em conversas de conflito, em situações que deixam outras pessoas visivelmente abaladas, você continua funcionando. Isso não é indiferença. É uma forma de sentir que faz tudo acontecer por dentro, fora do alcance de quem está olhando.
-
-O que a maioria das pessoas com esse perfil não percebe: você provavelmente é quem todo mundo chama quando a situação fica séria. Não porque você pediu esse papel — mas porque demonstrou, repetidamente, que aguenta. E agora esse papel é esperado de você automaticamente.
-
-O problema não é aguentar. O problema é que aguentar por muito tempo, sem espaço para processar, cria um acúmulo. E esse acúmulo não aparece como choro ou crise. Aparece como distância das pessoas que você ama, como cansaço que não passa com descanso, como a sensação de que você está sempre dando e raramente recebendo de volta.`,
+    what: 'Neuroticismo mede a intensidade com que você sente as emoções difíceis: ansiedade, irritação, insegurança, tristeza. Um número alto significa que você tende a sentir essas emoções com mais força e frequência. Um número baixo significa que você tende a ser estável emocionalmente, mesmo em situações de estresse. Esse traço não diz nada sobre sua inteligência ou seu valor. Diz sobre como seu interior responde ao que é difícil.',
+    Alta: 'Você sente com intensidade. As emoções chegam rápido e ocupam espaço. Você tende a se preocupar, a antecipar problemas e a sentir o peso das situações antes que elas se resolvam. É sensível ao tom das conversas, ao que não foi dito e ao que pode dar errado. Essa sensibilidade tem um custo real no dia a dia, mas também te dá uma percepção sobre pessoas e situações que quem sente menos simplesmente não tem.',
+    Média: 'Você sente as coisas, mas não fica presa nelas. Tem momentos de tensão, de preocupação, de insegurança, como qualquer pessoa. Mas consegue se recuperar sem perder o funcionamento. Não é imune ao estresse, mas também não é dominada por ele. Você tem uma estabilidade emocional real, construída ao longo do tempo.',
+    Baixa: 'Você é emocionalmente estável. Lida bem com pressão, não se deixa dominar por situações difíceis e raramente perde o controle em público. Continua funcionando quando outras pessoas ao redor travam. Não é que você não sinta. É que o que você sente não te paralisa. Isso faz de você uma referência natural em momentos de crise.',
   },
 }
 
