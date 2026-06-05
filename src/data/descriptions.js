@@ -2,100 +2,98 @@ export const bigFiveIntro = `O Big Five é um dos modelos de personalidade mais 
 
 export const pillarDescriptions = {
   abertura: {
-    what: 'Abertura à Experiência diz respeito à forma como você se relaciona com o novo: ideias, experiências, perspectivas e formas diferentes de enxergar o mundo. Quanto mais alto esse traço, maior a tendência de buscar o desconhecido como estímulo. Quanto mais baixo, mais você encontra valor e segurança no que já conhece e domina.',
-    Alta: `Você não consegue passar por uma ideia sem querer entendê-la por dentro. Não é curiosidade no sentido comum da palavra — é algo mais profundo, quase uma necessidade de encontrar o que está escondido atrás do que todo mundo já deu como certo. Enquanto outras pessoas chegam a uma conclusão e seguem em frente, você ainda está lá, virando o assunto pelo avesso, perguntando o que ninguém perguntou.
+    what: 'Abertura à Experiência mede o quanto você se relaciona com ideias novas, experiências diferentes e formas de pensar que ainda não são as suas. Não é sobre ser criativa ou intelectual — é sobre o quanto você busca o que não conhece como estímulo, e o quanto prefere o que já domina como segurança.',
+    Alta: `Você não consegue deixar uma ideia pela metade. Quando algo captura sua atenção, você precisa entender de onde vem, para onde vai e o que está por baixo. Isso não é curiosidade casual — é uma forma de processar o mundo que começa antes que você decida e termina depois que todo mundo já foi embora.
 
-Isso te faz enxergar o mundo em camadas que a maioria das pessoas simplesmente não percebe. Você nota a ironia onde outros veem só fato. Você sente o peso de uma música antes de entender a letra. Você entra num ambiente e capta a temperatura emocional antes de processar qualquer informação visual. Essa percepção não é treinada — ela é constitutiva de quem você é.
+Essa característica aparece em coisas pequenas: você é quem ainda está questionando depois que a conversa encerrou. Quem encontra conexões entre assuntos que ninguém teria relacionado. Quem percebe o que não foi dito numa situação, não só o que foi.
 
-O desafio é que uma mente com esse nível de abertura pode se tornar um lugar difícil de habitar. Você absorve muito, sente muito, processa muito. Quando a vida pede respostas simples, você ainda está dentro da pergunta. Quando o mundo exige que você escolha 1 caminho, sua cabeça já imaginou 10. Isso não é indecisão — é a marca de quem não consegue fingir que as coisas são mais simples do que são.
+O ponto que merece atenção é o seguinte: uma mente que funciona assim pode ser difícil de desligar. Você processa muito, e nem sempre sabe o que fazer com tudo isso. Quando a vida pede uma resposta simples, você ainda está dentro da pergunta — e isso pode parecer indecisão para quem está do lado de fora.
 
-O que o seu resultado revela é uma capacidade rara de criar conexões entre mundos diferentes. A questão não é controlar essa abertura — é aprender a usá-la com intenção, sem se perder no processo.`,
-    Média: `Você tem curiosidade, mas ela não te consome. Consegue se interessar profundamente por algo e, ao mesmo tempo, escolher o momento certo para parar. Não precisa entender tudo — e isso, na verdade, é uma forma de inteligência que muita gente subestima.
+O que seu resultado mostra é que você tem uma capacidade real de ir fundo. O trabalho não é diminuir isso. É aprender a escolher onde esse aprofundamento vale o custo que ele tem.`,
+    Média: `Você tem curiosidade, mas ela não te governa. Consegue se interessar por algo novo sem precisar explorar cada detalhe até o fim. Isso é uma escolha — mesmo que você não perceba que está fazendo uma.
 
-O que esse resultado mostra é um padrão muito específico: você abre quando vale a pena e fecha quando não vale. Não por medo do novo, mas por uma leitura prática do que merece sua atenção e do que não merece. Você não é indiferente ao desconhecido — você é seletiva. Existe uma diferença enorme entre as 2 coisas.
+Seu resultado mostra que você funciona bem tanto em situações conhecidas quanto em situações novas. Não depende da novidade para se sentir estimulada, e também não foge dela. Você avalia o que vale sua atenção e direciona sua energia para isso.
 
-O desafio é reconhecer quando essa seletividade vira barreira. Às vezes o que parece "não vale minha atenção" é, na verdade, algo que ainda não chegou até você da forma certa. Sua abertura é real — ela só precisa de uma entrada que faça sentido para você.`,
-    Baixa: `Você confia no que já testou. Não porque tem medo do novo, mas porque sabe o valor do que funciona. Enquanto outras pessoas gastam energia tentando descobrir o próximo caminho, você já está 3 passos à frente no caminho que conhece. Esse é um tipo de inteligência que o mundo raramente celebra, mas que move as coisas de verdade.
+O ponto de atenção é reconhecer quando esse filtro está funcionando a seu favor — e quando está te protegendo de algo que, na verdade, você precisaria encarar. Nem tudo que parece familiar é seguro. E nem tudo que parece novo é ameaça.`,
+    Baixa: `Você confia no que já conhece. Não porque tem medo do que não conhece — mas porque sabe que dominar algo de verdade tem valor, e que ficar pulando de novidade em novidade raramente leva a algum lugar sólido.
 
-O seu resultado mostra que você tem profundidade onde outros têm amplitude. Em vez de explorar 10 possibilidades ao mesmo tempo, você escolhe 1 e vai até o fundo. Isso cria um tipo de domínio que quem fica pulando de assunto em assunto nunca alcança.
+Seu resultado mostra alguém que prefere aprofundar em vez de ampliar. Você não precisa experimentar tudo para ter uma opinião formada. Quando decide que algo vale seu tempo, vai fundo — e isso produz um tipo de conhecimento que quem está sempre começando do zero nunca alcança.
 
-O ponto de atenção é quando o mundo ao redor muda e a situação exige uma resposta que sua experiência anterior ainda não mapeou. Nesses momentos, sua tendência natural vai ser buscar o que já conhece — e pode ser que a resposta certa esteja em algum lugar ainda não explorado por você. Não é uma limitação. É um convite para ampliar o mapa sem abandonar o território que você já domina.`,
+O que precisa de atenção é o seguinte: o mundo muda, e em algum momento você vai se deparar com uma situação em que o que você já sabe não é suficiente. Nesses momentos, a tendência natural vai ser ignorar o que não se encaixa no que você já domina. Reconhecer isso antes que aconteça é a diferença entre adaptar e travar.`,
   },
   conscienciosidade: {
-    what: 'Conscienciosidade revela como você lida com responsabilidade, organização e compromisso. Não é sobre ser controlada ou rígida — é sobre a relação que você tem com o que promete a si mesma e aos outros, e sobre como você organiza seus recursos internos para chegar aonde quer chegar.',
-    Alta: `Você não precisa de ninguém para te lembrar do que precisa ser feito. A lista existe na sua cabeça antes de existir no papel, o prazo está marcado antes de ser cobrado, e o trabalho já começou quando os outros ainda estão decidindo por onde começar. Isso não é perfeccionismo — é uma relação muito particular com a responsabilidade. Para você, fazer bem não é um esforço. É uma postura.
+    what: 'Conscienciosidade mede como você lida com responsabilidade, organização e compromisso. Revela se você tende a planejar antes de agir, se cumpre o que promete, se mantém o foco quando as coisas ficam difíceis — e como você se comporta quando ninguém está olhando.',
+    Alta: `Você não precisa de cobrança externa para fazer o que precisa ser feito. O prazo existe na sua cabeça antes de existir no papel. O trabalho já começou quando as outras pessoas ainda estão decidindo por onde começar. Você entrega — e entrega bem.
 
-Esse padrão te torna extremamente confiável. As pessoas sabem que quando você se compromete com algo, aquilo vai acontecer. E essa confiança tem um peso que vai muito além da produtividade — ela constrói a forma como você se vê e a forma como os outros te tratam.
+Isso constrói algo importante: as pessoas sabem que podem contar com você. Quando você diz que vai fazer, faz. Isso é raro, e quem convive com você provavelmente depende disso mais do que percebe.
 
-O lado que pede atenção é a exigência que você aplica a si mesma. Quando o padrão interno é muito alto, qualquer resultado abaixo dele parece insuficiente — mesmo quando, na visão de qualquer pessoa de fora, estava mais do que bom. Você pode estar carregando uma régua que não foi feita para ser humana.
+O lado que merece atenção é a régua que você usa consigo mesma. Quando o padrão interno é muito alto, qualquer coisa abaixo dele parece insuficiente — mesmo quando qualquer pessoa de fora diria que estava mais do que bom. Você pode estar exigindo de si mesma um nível que não exigiria de ninguém.
 
-O que seu resultado revela é uma força que, quando bem direcionada, produz resultados extraordinários. Quando mal calibrada, pode produzir esgotamento com aparência de disciplina.`,
-    Média: `Você consegue se organizar quando precisa, cumpre o que promete na maior parte das vezes e tem um senso de responsabilidade real — mas não deixa que a necessidade de controle dite o ritmo de tudo. Existe uma leveza nesse jeito de funcionar que muita gente tenta imitar e não consegue.
+O que seu resultado revela é disciplina real. Quando bem direcionada, ela produz resultados extraordinários. Quando virada para dentro sem revisão, ela produz esgotamento que parece, por fora, muito com dedicação.`,
+    Média: `Você se organiza quando precisa. Cumpre o que promete na maior parte das vezes. Tem responsabilidade — mas não deixa que ela controle tudo.
 
-Seu resultado mostra que você não precisa da estrutura para se sentir segura. Consegue trabalhar dentro dela e fora dela, dependendo do que a situação pede. Isso é adaptabilidade — e é uma qualidade rara.
+Isso é mais raro do que parece. A maioria das pessoas oscila entre excesso de controle e ausência de estrutura. Você consegue transitar entre os 2 dependendo do que a situação pede.
 
-O ponto de atenção é a consistência em momentos que exigem esforço sustentado. Quando a motivação inicial esfria, o que te mantém no caminho? Se a resposta ainda não está clara para você, vale examinar isso com honestidade.`,
-    Baixa: `Você funciona de um jeito que a maioria dos sistemas não foi construída para acomodar — e mesmo assim você chega lá. Não pelo caminho mais organizado, não pelo mais previsível, mas pelo seu caminho. E isso tem valor, mesmo que ninguém tenha te dito isso antes.
+O ponto de atenção é o que acontece quando uma tarefa fica longa, difícil ou pouco estimulante. A motivação inicial dá conta do começo. O que te mantém quando o começo já passou?`,
+    Baixa: `Você funciona de um jeito que a maioria dos ambientes não foi feita para acomodar — e mesmo assim você chega onde precisa chegar. Não pelo caminho mais organizado. Pelo seu caminho.
 
-Seu resultado mostra uma mente que prefere a fluidez à estrutura. Você pensa melhor quando não está engessada por um roteiro, age melhor quando tem espaço para improvisar e respira melhor quando não há uma lista ditando o que vem a seguir.
+Seu resultado mostra uma mente que respira melhor sem roteiro fixo. Você age melhor quando tem espaço para improvisar, pensa melhor quando não está engessada numa lista e responde melhor à realidade do que ao planejamento.
 
-O que precisa de atenção é o custo disso nos contextos que exigem consistência: relacionamentos, projetos de longo prazo, compromissos que só funcionam se mantidos ao longo do tempo. Não é que você não consiga — é que talvez ainda não tenha encontrado a motivação certa para querer manter.`,
+O que precisa de atenção é o custo disso em contextos que exigem consistência ao longo do tempo: relacionamentos, projetos longos, compromissos que só funcionam se mantidos. Não é que você não consiga — é que você vai precisar de uma razão maior do que a tarefa em si para manter o ritmo quando ele ficar difícil.`,
   },
   extroversao: {
-    what: 'Extroversão mede de onde você retira sua energia. Pessoas com alta extroversão se recarregam no contato com o mundo, com as pessoas, com o movimento. Pessoas com baixa extroversão se recarregam no silêncio, nas reflexões, nos ambientes com menos estímulo. Nenhum dos 2 extremos é melhor — são formas diferentes de existir.',
-    Alta: `Você se energiza com pessoas. Não é que você precise de aprovação ou de audiência — é que o contato humano alimenta algo em você que o silêncio simplesmente não consegue. Uma conversa boa te deixa mais viva. Um ambiente cheio de gente te acende. Isso não é superficialidade — é a forma como sua mente processa e expande o que está vivendo.
+    what: 'Extroversão mede de onde você retira energia. Não é sobre ser comunicativa ou sociável — é sobre o que te recarrega e o que te drena. Pessoas com extroversão alta se energizam no contato com outras pessoas. Pessoas com extroversão baixa se energizam no silêncio e na quietude. A maioria fica em algum ponto entre os 2.',
+    Alta: `Você pensa melhor quando pode falar. Processa o que sente contando para alguém. Se energiza no contato com pessoas — não porque precisa de aprovação, mas porque é assim que sua mente funciona. Uma conversa boa te deixa mais viva. Ficar sozinha por muito tempo te esgota de um jeito que vai além do tédio.
 
-Você pensa em voz alta. Processa em relação. Precisa contar para entender o que sentiu. Para quem funciona diferente, isso pode parecer necessidade de atenção. Para você, é o jeito natural de existir no mundo.
+Isso aparece nos seus relacionamentos: você é quem puxa o assunto, quem mantém o grupo unido, quem lembra de entrar em contato. Pessoas naturalmente se aproximam de quem funciona assim.
 
-O ponto que merece cuidado é o que acontece quando não há ninguém. Momentos de silêncio prolongado, períodos de isolamento ou situações em que você precisa trabalhar sozinha por muito tempo podem criar um vácuo que vai muito além do tédio. Aprender a se fazer companhia é uma das habilidades mais importantes para quem tem o seu perfil.`,
-    Média: `Você consegue estar em qualquer ambiente — o animado e o tranquilo — sem precisar se transformar para isso. Não depende do grupo para se sentir inteira, mas também não foge dele. Essa capacidade de transitar é uma das mais valiosas que existem, especialmente num mundo que insiste em colocar as pessoas em categorias.
+O ponto de atenção é o seguinte: quando você está sempre em contato com pessoas, as conversas internas ficam em segundo plano. O silêncio desconforta — e pode ser que você o preencha antes de deixar que ele diga alguma coisa. Aprender a ficar consigo mesma sem precisar transformar isso numa tarefa é uma habilidade importante para quem tem o seu perfil.`,
+    Média: `Você consegue ser a pessoa animada da sala e a pessoa quieta do canto — dependendo do dia, da situação e de quem está presente. Não depende de pessoas para se sentir bem. E também não precisa de isolamento para se recompor.
 
-Seu resultado mostra alguém que escolhe com quem quer gastar energia. Não é seletividade por insegurança — é uma leitura do que vale e do que não vale. Você sabe a diferença entre uma conexão verdadeira e uma convivência por obrigação.
+Isso é adaptabilidade, e é mais valioso do que parece. Você consegue funcionar em ambientes muito diferentes sem custo alto. Lê o contexto e ajusta.
 
-O desafio é não deixar que essa capacidade de adaptação vire invisibilidade. Às vezes, quem consegue se encaixar em tudo acaba não sendo reconhecida por nada.`,
-    Baixa: `Você não precisa de muito para se sentir bem. Um grupo pequeno, uma conversa que vai fundo, silêncio que não precisa ser preenchido — são esses os ambientes onde você realmente aparece. Não porque é tímida. Porque é precisa com onde deposita sua atenção.
+O que merece atenção é um risco específico de quem se adapta bem: o de se tornar invisível. Quem consegue se encaixar em qualquer situação às vezes não é reconhecida em nenhuma delas. Você sabe quem você é quando não está se adaptando a nada?`,
+    Baixa: `Você se recarrega no silêncio. Grupos grandes te cansam. Conversas superficiais te esgotam mais do que qualquer trabalho difícil. Você é seletiva com onde coloca sua atenção — e isso não é timidez. É uma forma muito específica de preservar energia para o que realmente importa.
 
-Seu resultado mostra uma capacidade de concentração e foco que ambientes muito estimulantes costumam destruir. Você pensa melhor quando o barulho para. Você se conecta mais quando não precisa competir com a multidão.
+Seu resultado mostra alguém que prefere 1 conversa real a 10 conversas rápidas. Que constrói vínculos devagar e com cuidado. Que pensa muito antes de falar — e quando fala, tem algo a dizer.
 
-O ponto de atenção é a tendência de desaparecer em contextos que exigem visibilidade. Às vezes o mundo não vai até você — e esperar que ele vá pode ser um custo alto demais.`,
+O ponto de atenção é que o mundo externo não vai sempre até você. Às vezes é você quem precisa ir. E esperar que as coisas certas apareçam sem que você se mova pode custar oportunidades que você nem vai saber que perdeu.`,
   },
   amabilidade: {
-    what: 'Amabilidade revela como você se relaciona com as pessoas ao seu redor: o quanto você prioriza a harmonia, o quanto você se move em direção às necessidades dos outros e o quanto você consegue manter seus próprios limites dentro disso. É o traço que mais aparece nos relacionamentos — e o que mais cria tanto conexão quanto esgotamento.',
-    Alta: `Você sente os outros. Não como uma habilidade desenvolvida — como um estado natural. Você percebe quando alguém está desconfortável antes de qualquer palavra ser dita. Você ajusta seu tom sem perceber. Você cuida, mesmo quando não foi pedido, mesmo quando ninguém vai agradecer.
+    what: 'Amabilidade mede como você se relaciona com as necessidades dos outros. O quanto você coopera, confia, perdoa, cuida. Não é sobre ser boa pessoa — é sobre onde você coloca sua atenção quando outra pessoa está presente: em você ou nela.',
+    Alta: `Você percebe as pessoas. Quando alguém está desconfortável, você sente antes de qualquer palavra ser dita. Quando alguém precisa de apoio, você já está se movendo nessa direção antes de ser pedido. Isso não é treinado — é a forma como você processa quem está ao seu redor.
 
-Isso faz de você alguém que as pessoas procuram. Não pelo que você faz, mas pela forma como você faz as pessoas se sentirem. Há algo no seu jeito que comunica: "você pode ser você aqui."
+As pessoas sentem isso em você. Sentem que podem ser o que são quando estão perto de você, que não precisam se explicar demais, que serão recebidas sem julgamento. Isso cria vínculos profundos — e também cria uma demanda constante que você nem sempre percebe que está atendendo.
 
-O que precisa ser visto com cuidado é o custo disso. Cuidar de todo mundo o tempo todo tem um preço — e quem paga é você. A pergunta que vale se fazer não é "estou ajudando o suficiente?" mas "estou me deixando para depois de novo?"`,
-    Média: `Você se importa com as pessoas — mas também se importa consigo. Você ajuda porque quer, não porque não consegue dizer não. Você é gentil sem ser condescendente, empática sem ser permissiva. Esse equilíbrio é muito mais raro do que parece.
+A pergunta que vale se fazer é simples: quem cuida de você com o mesmo nível de atenção com que você cuida dos outros? Se a resposta demorou para chegar, isso é informação.`,
+    Média: `Você se importa com as pessoas — mas também tem limites. Ajuda porque quer, não porque não sabe dizer não. É empática sem ser permissiva. Cuida sem se apagar no processo.
 
-Seu resultado mostra alguém que entendeu que cuidar dos outros e cuidar de si não são opostos. Que dá para ser boa pessoa sem se apagar no processo. Isso é maturidade emocional — e ela não vem fácil.
+Esse equilíbrio é real e é raro. A maioria das pessoas ou cede demais ou se fecha demais. Você aprendeu — ou está aprendendo — a fazer os 2 ao mesmo tempo.
 
-O ponto de atenção é que esse equilíbrio pode ser instável em situações de alta pressão emocional. Quando alguém que você ama está sofrendo, ou quando há conflito em relações importantes, sua tendência pode pender mais para 1 dos lados do que você gostaria.`,
-    Baixa: `Você não abre mão do que pensa para agradar. Não muda de posição porque alguém ficou desconfortável. Não suaviza a verdade para evitar tensão. Isso pode parecer dureza para quem está do lado de fora — mas é uma forma de respeito muito particular: você trata as pessoas como adultas, capazes de ouvir o que é real.
+O ponto de atenção é que esse equilíbrio é instável em situações de alta pressão emocional. Quando alguém que você ama está sofrendo, ou quando há conflito numa relação importante, a tendência é que 1 lado ganhe sobre o outro. Qual lado costuma ganhar no seu caso?`,
+    Baixa: `Você não cede para agradar. Não muda de posição porque alguém ficou desconfortável com o que você disse. Não suaviza a verdade para evitar conflito. Você é direta — e trata as pessoas como adultas capazes de ouvir o que é real.
 
-Seu resultado mostra alguém que não confunde gentileza com concordância. Você pode discordar de alguém e ainda respeitar essa pessoa profundamente. Pode ser direta sem ser cruel. Pode não ceder sem ser indiferente.
+Isso tem valor. Muita gente precisa exatamente de alguém que não vai distorcer a realidade para proteger sentimentos. Você é essa pessoa.
 
-O que merece atenção é o impacto que essa postura tem em relacionamentos que dependem de mais flexibilidade emocional. Nem todo mundo consegue ler sua objetividade como respeito — e às vezes o que você enxerga como honestidade chega como distância.`,
+O que precisa de atenção é o seguinte: nem todo mundo consegue receber honestidade sem filtro, especialmente em momentos de vulnerabilidade. Não é que você precise mudar quem você é. É que às vezes a mesma verdade pode ser dita de formas diferentes — e a forma muda o que a outra pessoa consegue ouvir.`,
   },
   neuroticismo: {
-    what: 'Neuroticismo mede a intensidade com que você experimenta as emoções difíceis: ansiedade, tensão, insegurança, instabilidade. Um número alto não significa que algo está errado com você — significa que seu sistema emocional responde com força. Um número baixo indica estabilidade, mas não necessariamente ausência de profundidade emocional.',
-    Alta: `Você sente com intensidade. Não só as coisas grandes — as pequenas também. Uma palavra dita no tom errado. Uma situação que ainda não se resolveu. Uma possibilidade de problema que pode nem acontecer. Tudo isso ocupa espaço dentro de você de um jeito que quem tem outro perfil simplesmente não consegue entender.
+    what: 'Neuroticismo mede a intensidade com que você sente as emoções difíceis: ansiedade, irritação, insegurança, tristeza. Um número alto significa que seu sistema emocional responde com força a situações de estresse. Um número baixo significa que você tende a ser estável emocionalmente, mesmo sob pressão.',
+    Alta: `Você sente muito — e sente rápido. Uma palavra no tom errado já chegou antes de você processar. Uma situação incerta já virou uma preocupação antes de ter qualquer fundamento real. Não é que você seja dramática. É que seu sistema interno registra tudo, e registra em alta intensidade.
 
-Isso não é algo que precisa ser consertado. É sensibilidade — e sensibilidade, quando não compreendida, vira sofrimento desnecessário. O problema não é que você sente demais. O problema é que provavelmente ninguém te ensinou o que fazer com tudo isso que você sente.
+Isso não é um defeito. É uma forma de processamento emocional que tem custos reais — mas também tem capacidades que quem sente menos simplesmente não tem. Você percebe nuances que outros ignoram. Você antecipa situações que outros só vão ver quando chegarem. Você cria vínculos profundos porque se entrega de verdade.
 
-O que seu resultado revela é um sistema emocional muito responsivo. Ele capta tudo, registra tudo, processa tudo. Isso significa que você também é capaz de perceber nuances que outros ignoram, de antecipar situações e de criar vínculos profundos — porque quem sente muito também ama muito, cuida muito, se entrega de um jeito que só quem viveu sabe o que é.
+O trabalho aqui não é sentir menos. É aprender a distinguir o que merece sua atenção do que está apenas passando. Seu sistema dispara para tudo com a mesma intensidade — e nem tudo merece o mesmo peso.`,
+    Média: `Você sente as coisas, mas consegue se recuperar. Passa por períodos difíceis sem perder o fio de volta para si mesma. Não é imune ao estresse — mas também não fica presa nele.
 
-O trabalho aqui não é sentir menos. É aprender a diferenciar o que merece sua atenção do que está apenas passando.`,
-    Média: `Você tem momentos de tensão, de preocupação, de incerteza — mas eles não definem seu estado. Você sente o peso das coisas, mas não fica presa debaixo deles. Consegue atravessar um período difícil sem perder o fio de volta para si mesma.
+Esse resultado mostra uma estabilidade que foi construída. Você provavelmente já passou por situações que testaram sua capacidade de se manter inteira, e saiu delas com mais recursos do que tinha antes.
 
-Esse resultado mostra uma estabilidade que foi construída — não dada. Você provavelmente já passou por situações que testaram sua capacidade de se manter inteira, e saiu delas sabendo um pouco mais sobre como você funciona.
+O que merece atenção é o que você faz com o que sente quando não está em crise. A estabilidade às vezes é mantida pelo hábito de deixar as coisas para processar depois. E o depois nem sempre chega.`,
+    Baixa: `Você funciona bem sob pressão. Quando as coisas ficam difíceis, você continua pensando, decidindo, resolvendo — enquanto outras pessoas travam ou reagem de forma impulsiva. Isso faz de você uma referência em momentos de crise. As pessoas vão até você exatamente quando tudo está desandando.
 
-O que merece atenção é o acúmulo. A estabilidade média às vezes é mantida ao custo de processar tudo "depois" — e o depois pode nunca chegar. O que você está adiando sentir?`,
-    Baixa: `Você não entra em colapso. Diante do que desestabiliza a maioria das pessoas, você encontra um chão. Isso não significa que você não sente — significa que o que você sente não te domina. Você processa e continua.
+O que esse padrão não mostra é o que acontece com o que você sente enquanto funciona. Estabilidade emocional não é ausência de sentimento — é uma forma de processá-lo internamente, em silêncio, sem expor o processo. Isso é eficiente. E pode ser muito solitário.
 
-Esse resultado mostra uma estabilidade emocional que é um recurso real. As pessoas ao seu redor provavelmente percebem isso, mesmo sem nomear. Você é quem segura quando tudo está caindo. Quem pensa quando ninguém mais consegue.
-
-O que precisa de cuidado é exatamente esse papel. Ser estável não significa ser inabalável. E não precisar de apoio para funcionar não significa que você nunca vai precisar. Saber pedir ajuda antes do limite é uma habilidade tão importante quanto saber se manter de pé.`,
+Existe um risco específico para quem tem esse perfil: o de se tornar referência de força para todo mundo ao redor e, ao mesmo tempo, não saber pedir apoio quando precisa. Não porque é orgulhosa — mas porque provavelmente nunca precisou demonstrar isso, e ninguém aprendeu a te oferecer.`,
   },
 }
 
@@ -213,7 +211,7 @@ export const facetDescriptions = {
   modestia: {
     what: 'Mede o grau de humildade e necessidade de autopromoção.',
     Alta: 'Evita chamar atenção para si e valoriza a discrição.',
-    Baixa: 'Sente-se confortável em destacar conquistas e competências.',
+    Baixa: 'Se sente confortável em destacar conquistas e competências.',
   },
   sensibilidade: {
     what: 'Mede a empatia e a preocupação com sentimentos alheios.',
@@ -222,7 +220,7 @@ export const facetDescriptions = {
   },
   ansiedade: {
     what: 'Mede a tendência a sentir preocupação, tensão e medo.',
-    Alta: 'A pessoa preocupa-se facilmente e tende a antecipar problemas.',
+    Alta: 'A pessoa se preocupa facilmente e tende a antecipar problemas.',
     Baixa: 'Mantém a calma diante da maioria das situações.',
   },
   hostilidade: {
@@ -237,8 +235,8 @@ export const facetDescriptions = {
   },
   autoconsciencia: {
     what: 'Mede a sensibilidade ao julgamento e à opinião dos outros.',
-    Alta: 'Preocupa-se com a própria imagem e sente constrangimento com facilidade.',
-    Baixa: 'Sente-se confortável em situações sociais e sob observação.',
+    Alta: 'Se preocupa com a própria imagem e sente constrangimento com facilidade.',
+    Baixa: 'Se sente confortável em situações sociais e sob observação.',
   },
   impulsividade: {
     what: 'Mede a dificuldade em resistir a desejos e impulsos.',
@@ -247,7 +245,7 @@ export const facetDescriptions = {
   },
   vulnerabilidade: {
     what: 'Mede a capacidade de lidar com pressão e situações difíceis.',
-    Alta: 'Sente-se facilmente sobrecarregada diante do estresse.',
+    Alta: 'Se sente facilmente sobrecarregada diante do estresse.',
     Baixa: 'Lida bem com desafios e mantém a estabilidade sob pressão.',
   },
 }
