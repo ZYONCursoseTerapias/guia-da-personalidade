@@ -32,6 +32,22 @@ export async function sendResultEmail({ name, email, scores }) {
     })
     .join('\n')
 
+  const dominantPillar = pillars.reduce((best, p) => {
+    const score = scores[p.id]?.total ?? 0
+    return score > (scores[best.id]?.total ?? 0) ? p : best
+  }, pillars[0])
+
+  const dominantScore = scores[dominantPillar.id]?.total ?? 0
+  const { label: dominantLabel } = classifyPillar(dominantScore)
+
+  const dominantFacets = dominantPillar.subscales
+    .map((sub) => {
+      const subScore = scores[dominantPillar.id]?.subscales?.[sub.id] ?? 0
+      const { label } = classifyPillar(subScore)
+      return `${sub.name}: ${subScore}/20 (${label})`
+    })
+    .join('\n')
+
   const date = new Date().toLocaleDateString('pt-BR')
 
   // E-mail para Sandra (notificação de nova resposta)
@@ -43,12 +59,16 @@ export async function sendResultEmail({ name, email, scores }) {
     date,
   })
 
-  // E-mail para a cliente (resultado)
+  // E-mail para a cliente (resultado com traço dominante)
   if (TEMPLATE_CLIENT) {
     await sendEmail(TEMPLATE_CLIENT, {
       to_name: name,
       client_name: name,
       client_email: email,
+      dominant_trait: dominantPillar.name,
+      dominant_score: `${dominantScore} pts`,
+      dominant_level: dominantLabel,
+      dominant_facets: dominantFacets,
       date,
     })
   }
