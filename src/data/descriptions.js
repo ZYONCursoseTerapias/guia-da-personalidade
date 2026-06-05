@@ -89,7 +89,7 @@ O ponto que merece atenção é o seguinte: estabilidade mantida pelo hábito de
 
 O lado que a maioria das pessoas com esse perfil não percebe: você provavelmente é quem todo mundo chama quando a situação fica séria. Não porque você pediu esse papel, mas porque demonstrou, repetidamente, que aguenta. E agora esse papel é esperado de você automaticamente.
 
-O problema não é aguentar. O problema é que aguentar por muito tempo, sem espaço para processar, cria um acúmulo que não aparece como colapso emocional. Aparece como distância, como cansaço que não passa, como a sensação de que você está sempre dando e raramente recebendo de volta.`,
+O problema não é aguentar. O problema é que aguentar por muito tempo, sem espaço para processar, cria um acúmulo. E esse acúmulo não aparece como choro ou crise. Aparece como distância das pessoas que você ama, como cansaço que não passa com descanso, como a sensação de que você está sempre dando e raramente recebendo de volta.`,
   },
 }
 
