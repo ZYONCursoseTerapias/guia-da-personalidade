@@ -117,7 +117,7 @@ export const facetDescriptions = {
   },
   acoes: {
     what: 'Mede a disposição para experimentar atividades, ambientes e experiências diferentes.',
-    Alta: 'Busca novidades, gosta de variar rotinas e sente-se estimulada por mudanças e novas experiências.',
+    Alta: 'Busca novidades, gosta de variar rotinas e se sente estimulada por mudanças e novas experiências.',
     Baixa: 'Prefere ambientes familiares, hábitos conhecidos e rotinas previsíveis.',
   },
   ideias: {
@@ -132,7 +132,7 @@ export const facetDescriptions = {
   },
   competencia: {
     what: 'Mede a percepção de capacidade para lidar com desafios e resolver problemas.',
-    Alta: 'A pessoa sente-se capaz, preparada e confiante para enfrentar situações complexas.',
+    Alta: 'A pessoa se sente capaz, preparada e confiante para enfrentar situações complexas.',
     Baixa: 'A pessoa tende a duvidar das próprias capacidades e pode evitar desafios por insegurança.',
   },
   ordem: {
