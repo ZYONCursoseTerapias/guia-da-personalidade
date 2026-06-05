@@ -5,89 +5,89 @@ export const pillarDescriptions = {
     what: 'Abertura à Experiência mede o quanto você se relaciona com ideias novas, experiências diferentes e formas de pensar que ainda não são as suas. Não é sobre ser criativa ou intelectual. É sobre o quanto você busca o que não conhece como estímulo, e o quanto prefere o que já domina como segurança.',
     Alta: `Você não processa as coisas de forma linear. Uma ideia leva a outra, que leva a uma pergunta, que abre 3 possibilidades novas antes de você ter respondido a primeira. Para quem está do lado de fora, isso pode parecer falta de foco. Para você, é simplesmente a forma como seu pensamento funciona.
 
-Isso te dá uma capacidade real que a maioria das pessoas não tem: você enxerga o que não está explícito. Percebe padrões antes de eles se tornarem óbvios. Conecta informações de campos completamente diferentes e produz algo que ninguém tinha visto antes. Esse é o lado que vale preservar.
+Você enxerga o que não está explícito. Percebe conexões entre coisas que ninguém teria relacionado. Chega a conclusões que outras pessoas só vão entender depois que você explicar. Isso é uma capacidade real — e é exatamente o que faz de você alguém difícil de encaixar em qualquer caixa.
 
-O custo é que uma mente que funciona assim nunca está completamente quieta. Você provavelmente já foi chamada de intensa, de complicada, de alguém que pensa demais. O que ninguém te disse é que pensar muito não é o problema. O problema é não saber para qual das 10 direções vale a pena ir.`,
-    Média: `Você consegue se interessar por coisas novas sem precisar entender tudo sobre elas. Consegue explorar sem se perder. Essa é uma capacidade de regulação que parece simples e não é. Muita gente ou mergulha completamente ou não entra na água.
+O custo dessa forma de funcionar é uma mente que raramente está quieta. Você provavelmente já foi chamada de intensa, de complicada, de alguém que pensa demais. O que ninguém te disse é que pensar muito não é o problema. O problema é não saber para qual das 10 direções vale a pena ir.`,
+    Média: `Você consegue se interessar por coisas novas sem precisar entender tudo sobre elas. Consegue explorar sem se perder no meio do caminho. Isso parece óbvio e não é — muita gente ou entra de cabeça em tudo ou não entra em nada.
 
-Seu resultado mostra que você tem critério. Não está aberta para tudo o tempo todo, mas também não está fechada para o que não conhece. Você avalia antes de investir, e isso te protege de gastar energia onde não vale.
+Você tem critério. Não está aberta para tudo o tempo todo, mas também não está fechada para o que não conhece. Você avalia antes de investir — e isso te protege de gastar energia onde não vale.
 
-O ponto que merece atenção é o seguinte: o filtro que te protege às vezes também te impede. Nem tudo que parece desnecessário é desnecessário. Às vezes é só desconfortável. E desconforto não é o mesmo que irrelevante.`,
+O que vale observar é o seguinte: o filtro que te protege às vezes também te impede. Nem tudo que parece desnecessário é desnecessário. Às vezes é só desconfortável. E desconforto não é o mesmo que irrelevante.`,
     Baixa: `Você não precisa de novidade para funcionar bem. Enquanto outras pessoas estão experimentando o próximo método, a próxima abordagem, a próxima tendência, você está aprofundando o que já domina. E aprofundamento real produz resultados que experimentação superficial nunca vai alcançar.
 
-Seu resultado mostra alguém que respeita o que já sabe. Você não descarta experiência acumulada por algo que ainda não foi testado. Isso é julgamento, e é mais raro do que parece.
+Você respeita o que já sabe. Não descarta experiência acumulada por algo que ainda não foi testado. Isso é discernimento — e é mais raro do que parece.
 
-O que precisa de atenção é a diferença entre escolher o que já funciona e evitar o que é desconfortável. São 2 coisas muito parecidas por fora e muito diferentes por dentro. Você sabe qual das 2 está fazendo em cada situação?`,
+A questão que vale se fazer é a seguinte: existe diferença entre escolher o que já funciona e evitar o que é desconfortável. São 2 coisas muito parecidas por fora e muito diferentes por dentro. Você sabe qual das 2 está fazendo em cada situação?`,
   },
   conscienciosidade: {
     what: 'Conscienciosidade mede como você lida com responsabilidade, organização e compromisso. Revela se você tende a planejar antes de agir, se cumpre o que promete, se mantém o foco quando as coisas ficam difíceis, e como você se comporta quando ninguém está olhando.',
-    Alta: `Você tem padrões altos para tudo, incluindo para você mesma. O trabalho que sai das suas mãos tem um nível de cuidado que a maioria das pessoas não aplica. Você revisa, corrige, melhora antes de considerar pronto. E entrega.
+    Alta: `Você não precisa de cobrança externa para fazer o que precisa ser feito. O prazo existe na sua cabeça antes de existir no papel. O trabalho já começou quando as outras pessoas ainda estão decidindo por onde começar. Você entrega — e entrega bem.
 
-Isso cria uma reputação que você carrega sem precisar falar nada sobre ela. As pessoas sabem o que esperar de você e esperam muito. Esse é um dos motivos pelos quais você provavelmente já assumiu mais responsabilidades do que o razoável: porque é capaz, porque entrega, e porque ninguém questiona isso.
+As pessoas ao seu redor sabem que quando você se compromete com algo, aquilo vai acontecer. Essa confiança tem um peso que vai muito além da produtividade. Ela define a forma como você é vista — e a quantidade de responsabilidade que os outros depositam em você, muitas vezes sem nem perguntar se você quer carregar.
 
-O que seu resultado revela é onde esse padrão pode virar problema: quando você aplica a mesma exigência a uma situação que não merece esse investimento, quando não consegue entregar algo incompleto mesmo que incompleto fosse suficiente, ou quando o cansaço de sempre fazer mais começa a parecer normal.`,
-    Média: `Você tem responsabilidade sem ser rígida. Organização sem ser controladora. Consegue cumprir o que promete sem precisar de uma estrutura perfeita para funcionar.
+O que ninguém costuma te dizer é o seguinte: a mesma exigência que produz resultados extraordinários, quando virada para dentro sem revisão, produz esgotamento. E esgotamento que vem da disciplina tem uma aparência muito parecida com dedicação. Você consegue distinguir os 2?`,
+    Média: `Você se organiza quando precisa. Cumpre o que promete na maior parte das vezes. Tem responsabilidade — mas não deixa que ela controle tudo.
 
-Esse resultado mostra alguém que aprendeu a calibrar. Você sabe a diferença entre o que precisa de atenção total e o que pode ser feito de qualquer jeito. Isso poupa energia, e energia bem direcionada é o que separa quem produz de quem apenas se movimenta.
+Isso é mais raro do que parece. A maioria das pessoas oscila entre excesso de controle e ausência de estrutura. Você consegue transitar entre os 2, dependendo do que a situação pede.
 
-A pergunta que vale se fazer é sobre consistência: você mantém o mesmo nível quando o projeto é longo, quando a motivação inicial passou, quando ninguém está olhando? A resposta honesta a essa pergunta revela mais sobre você do que qualquer resultado de teste.`,
-    Baixa: `Você não funciona bem dentro de rotinas rígidas, e provavelmente já ouviu que isso é um problema. Não é. É uma forma de processamento que tem custo em alguns contextos e vantagem real em outros.
+A pergunta que vale se fazer é sobre o que acontece quando uma tarefa fica longa, difícil ou pouco estimulante. A motivação inicial dá conta do começo. O que te mantém quando o começo já passou?`,
+    Baixa: `Você não funciona bem dentro de rotinas rígidas — e provavelmente já ouviu que isso é um problema. Não é. É uma forma de trabalhar que tem custo em alguns contextos e vantagem real em outros.
 
-Você responde melhor à realidade do que ao planejamento. Quando algo muda, você muda junto, sem o peso de ter que abandonar um plano que estava todo estruturado. Isso é agilidade, e tem valor em situações onde rigidez quebraria.
+Você responde melhor à realidade do que ao planejamento. Quando algo muda, você muda junto, sem o peso de ter que abandonar um plano todo estruturado. Você age melhor quando tem espaço para improvisar e pensa melhor quando não está engessada numa lista.
 
-O que precisa de atenção é o padrão de início sem conclusão. Projetos que começam com energia e perdem força no meio. Compromissos assumidos com intenção real e não cumpridos. Isso não é falta de capacidade. É ausência de um sistema que funcione para o seu jeito de ser. Descobrir qual é esse sistema é o trabalho.`,
+O risco específico aqui é o padrão de início sem conclusão. Projetos que começam com energia e perdem força no meio. Compromissos assumidos com intenção real e não cumpridos. Isso não é falta de capacidade. É ausência de um sistema que funcione para o seu jeito de ser. Descobrir qual é esse sistema é o trabalho.`,
   },
   extroversao: {
     what: 'Extroversão mede de onde você retira energia. Não é sobre ser comunicativa ou sociável. É sobre o que te recarrega e o que te drena. Pessoas com extroversão alta se energizam no contato com outras pessoas. Pessoas com extroversão baixa se energizam no silêncio e na quietude. A maioria fica em algum ponto entre os 2.',
-    Alta: `Você processa em voz alta. Pensa falando, entende sentindo, absorve estando com pessoas. Isso não é necessidade de atenção. É literalmente como sua mente organiza as informações. Tirar as pessoas da equação é tirar parte do seu processo de pensamento.
+    Alta: `Você pensa melhor quando pode falar. Processa o que sente contando para alguém. Se energiza no contato com pessoas — não porque precisa de aprovação, mas porque é assim que sua mente funciona. Uma conversa boa te deixa mais viva. Ficar sozinha por muito tempo te drena de um jeito que vai além do tédio.
 
-Ambientes com muita interação te energizam. Você sai de uma reunião intensa mais animada do que entrou. Sai de um encontro com mais disposição do que levou. Isso é parte de quem você é, e tentar funcionar como alguém que se recarrega no silêncio vai custar mais do que vale.
+Isso aparece nos seus relacionamentos: você é quem puxa o assunto, quem mantém o grupo unido, quem lembra de entrar em contato. Pessoas naturalmente se aproximam de quem funciona assim.
 
-O que merece atenção é o seguinte: quem se energiza com pessoas constantemente pode estar evitando, sem perceber, as conversas que só acontecem em silêncio. As perguntas que só aparecem quando não há ninguém para responder. O autoconhecimento que não vem de fora.`,
-    Média: `Você transita. Consegue estar no grupo animado e ser a pessoa quieta, dependendo do dia e da situação. Não precisa de muita gente ao redor para se sentir bem, e também não precisa de isolamento para se recompor.
+O que nem sempre aparece nesse perfil é o seguinte: quem está sempre com pessoas pode estar, sem perceber, evitando as conversas que só acontecem em silêncio. As perguntas que só aparecem quando não há ninguém para responder. O autoconhecimento que não vem de fora.`,
+    Média: `Você consegue ser a pessoa animada da sala e a pessoa quieta do canto — dependendo do dia, da situação e de quem está presente. Não depende de pessoas para se sentir bem. E também não precisa de isolamento para se recompor.
 
-Esse perfil é mais adaptável do que parece. Você lê o ambiente e ajusta, sem custo alto, sem precisar se forçar. Isso significa que você funciona em contextos muito diferentes, o que é uma vantagem real.
+Você lê o ambiente e ajusta, sem custo alto, sem precisar se forçar. Isso significa que você funciona em contextos muito diferentes — e isso é uma vantagem real que a maioria das pessoas não tem.
 
-O que vale observar é o que acontece quando você se adapta demais. Quem consegue ser qualquer coisa dependendo do contexto às vezes não sabe, de verdade, o que prefere quando a escolha é só dela. Você sabe?`,
-    Baixa: `Você não precisa de muito para se sentir bem, e essa é uma capacidade, não uma limitação. Você não depende de ambiente externo, de companhia constante, de estímulos contínuos para funcionar. Seu recarregamento é interno.
+Existe um risco específico de quem se adapta bem: o de se tornar invisível. Quem consegue se encaixar em qualquer situação às vezes não é reconhecida em nenhuma delas. Você sabe quem você é quando não está se adaptando a nada?`,
+    Baixa: `Você não precisa de muito para se sentir bem — e essa é uma capacidade, não uma limitação. Você não depende de ambiente externo, de companhia constante, de estímulos contínuos para funcionar. Você se recarrega internamente.
 
-Isso significa que você tem uma concentração que ambientes muito agitados destroem em outras pessoas. Você pensa com mais profundidade quando há quietude. Cria mais quando está sozinha. Processa melhor sem interrupção.
+Você tem uma concentração que ambientes muito agitados destroem em outras pessoas. Pensa com mais profundidade quando há quietude. Cria mais quando está sozinha. Processa melhor sem interrupção.
 
-O ponto de atenção é específico: você provavelmente já perdeu oportunidades porque esperou a situação certa para se posicionar, e a situação certa não chegou. O mundo nem sempre reconhece o que não aparece. E às vezes aparecer é uma escolha que precisa ser feita intencionalmente.`,
+O que vale observar é específico: você provavelmente já perdeu oportunidades porque esperou a situação certa para se posicionar, e a situação certa não chegou. O mundo nem sempre reconhece o que não aparece. E às vezes aparecer é uma escolha que precisa ser feita de forma deliberada.`,
   },
   amabilidade: {
     what: 'Amabilidade mede como você se relaciona com as necessidades dos outros. O quanto você coopera, confia, perdoa, cuida. Não é sobre ser boa pessoa. É sobre onde você coloca sua atenção quando outra pessoa está presente: em você ou nela.',
     Alta: `Você percebe as pessoas antes de elas perceberem que precisam ser percebidas. Quando alguém está desconfortável numa sala, você nota. Quando uma conversa muda de tom, você sente antes de processar o motivo. Isso não é habilidade desenvolvida. É a forma como você naturalmente processa quem está ao seu redor.
 
-As pessoas sentem isso em você sem conseguir nomear. Procuram você para conversar, confiam coisas que não contariam a outros, se sentem seguras perto de você. Você cria um tipo de conexão que é raro e que tem valor real. Mas que também tem um custo que raramente aparece na conta.
+As pessoas sentem isso em você sem conseguir nomear. Procuram você para conversar, confiam coisas que não contariam a outros, se sentem seguras perto de você. Você cria um tipo de conexão que é raro. Mas que também tem um custo que raramente aparece na conta.
 
 Esse custo é o seguinte: quando você cuida de todo mundo o tempo todo, quem cuida de você fica em segundo plano. Não porque as pessoas não se importam. Mas porque você raramente demonstra precisar. E quem nunca demonstra precisar raramente recebe sem pedir.`,
-    Média: `Você cuida das pessoas, mas também cuida de si. Ajuda porque quer, não porque não consegue dizer não. Tem empatia sem perder o julgamento. Esse equilíbrio parece óbvio e não é. A maioria das pessoas pende para 1 dos lados e se perde.
+    Média: `Você cuida das pessoas — mas também cuida de si. Ajuda porque quer, não porque não consegue dizer não. É empática sem ser permissiva. Cuida sem se apagar no processo.
 
-Seu resultado mostra alguém que aprendeu onde estão seus limites e, na maior parte das vezes, os respeita. Isso produz relacionamentos mais honestos do que os que são construídos só por acomodação.
+Isso é mais raro do que parece. A maioria das pessoas ou cede demais ou se fecha demais. Você aprendeu — ou está aprendendo — a fazer os 2 ao mesmo tempo.
 
-O que merece atenção é o que acontece quando o estresse é alto e a pressão vem de alguém importante para você. Nesses momentos, o equilíbrio oscila. Para qual lado ele costuma ir no seu caso, e o que isso te custa?`,
-    Baixa: `Você não ajusta o que pensa para não desconfortar quem está ouvindo. Não suaviza o que é real para proteger quem não quer ouvir. Você é direta, e essa diretividade é uma forma de respeito que muita gente confunde com dureza.
+O que merece atenção é o que acontece quando o estresse é alto e a pressão vem de alguém importante para você. Nesses momentos, o equilíbrio oscila. Para qual lado ele costuma ir no seu caso — e o que isso te custa?`,
+    Baixa: `Você não ajusta o que pensa para não desconfortar quem está ouvindo. Não suaviza o que é real para proteger quem não quer ouvir. Você é direta — e essa diretividade é uma forma de respeito que muita gente confunde com dureza.
 
-Seu resultado mostra alguém que não confunde harmonia com verdade. Você consegue discordar sem romper. Pode não ceder sem ser agressiva. Fala o que pensa sem precisar se desculpar por isso.
+Você não confunde harmonia com verdade. Consegue discordar sem romper. Pode não ceder sem ser agressiva. Fala o que pensa sem precisar se desculpar por isso.
 
-O que precisa de atenção é a distância entre como você entrega a verdade e como a outra pessoa consegue recebê-la. Você pode estar sendo completamente honesta e a outra pessoa pode estar ouvindo algo completamente diferente. Não é que você precise mudar o conteúdo. Às vezes é só a forma que precisa mudar.`,
+O que vale observar é a distância entre como você entrega a verdade e como a outra pessoa consegue recebê-la. Você pode estar sendo completamente honesta e a outra pessoa pode estar ouvindo algo completamente diferente. Não é que você precise mudar o conteúdo. Às vezes é só a forma que precisa mudar.`,
   },
   neuroticismo: {
     what: 'Neuroticismo mede a intensidade com que você sente as emoções difíceis: ansiedade, irritação, insegurança, tristeza. Um número alto significa que seu sistema emocional responde com força a situações de estresse. Um número baixo significa que você tende a ser estável emocionalmente, mesmo sob pressão.',
-    Alta: `Você sente rápido e com intensidade. Uma mudança de plano de última hora já chegou como problema antes de você avaliar se é. Uma palavra no tom errado já foi processada como sinal antes de você ter contexto suficiente. Seu sistema interno não espera confirmação para reagir. Ele reage, e depois você decide o que fazer com isso.
+    Alta: `Você sente rápido e com intensidade. Uma mudança de plano de última hora já chegou como problema antes de você avaliar se é. Uma palavra no tom errado já foi processada como sinal antes de você ter contexto suficiente. Seu interior não espera confirmação para reagir. Ele reage — e depois você decide o que fazer com isso.
 
-Isso não é um defeito. É um sistema de alta sensibilidade que captura informações que outras pessoas simplesmente não registram. Você percebe o que não foi dito numa conversa. Sente quando algo está errado antes de qualquer evidência concreta. Antecipa situações que outros vão entender só quando chegarem.
+Isso não é um defeito. É uma forma de sentir que tem custos reais, mas também tem algo que quem sente menos simplesmente não tem: você percebe o que não foi dito numa conversa. Sente quando algo está errado antes de qualquer evidência concreta. Antecipa situações que outros vão entender só quando chegarem.
 
-O que seu resultado revela é que o mesmo sistema que te coloca em alerta desnecessário às vezes é o que te protege antes de todo mundo. O trabalho não é desligar esse sistema. É aprender a calibrá-lo, a perguntar, antes de agir, se o que você está sentindo é informação real ou ruído.`,
-    Média: `Você sente as coisas, mas não fica presa nelas. Passa por períodos difíceis sem perder o funcionamento. Isso não é ausência de sentimento. É uma capacidade de regulação que foi sendo construída ao longo do tempo, provavelmente sem que você percebesse que estava fazendo isso.
+O trabalho não é sentir menos. É aprender a distinguir o que merece sua atenção do que está apenas passando. Seu interior dispara para tudo com a mesma intensidade — e nem tudo merece o mesmo peso.`,
+    Média: `Você sente as coisas, mas não fica presa nelas. Passa por períodos difíceis sem perder o fio de volta para si mesma. Não é imune ao estresse — mas também não fica dominada por ele.
 
-Seu resultado mostra estabilidade real. Não a estabilidade de quem não sente, mas a de quem sente e sabe o que fazer com isso na maior parte das vezes.
+Essa estabilidade foi construída. Você provavelmente já passou por situações que testaram sua capacidade de se manter inteira, e saiu delas com mais recursos do que tinha antes.
 
-O ponto que merece atenção é o seguinte: estabilidade mantida pelo hábito de postergar o processamento emocional tem prazo de validade. Você pode estar funcionando muito bem e, ao mesmo tempo, carregando coisas que ainda não foram de fato resolvidas. O que você está guardando para processar depois?`,
-    Baixa: `Você raramente perde o controle em público. Em conversas de conflito, em situações que deixam outras pessoas visivelmente abaladas, você continua funcionando. Isso não é indiferença. É um padrão de processamento emocional que faz tudo acontecer por dentro, fora do alcance de quem está olhando.
+A questão que vale se fazer é sobre o que você faz com o que sente quando não está em crise. Funcionar bem às vezes é mantido pelo hábito de guardar as coisas para sentir depois. E o depois nem sempre chega. O que você está adiando sentir?`,
+    Baixa: `Você raramente perde o controle em público. Em conversas de conflito, em situações que deixam outras pessoas visivelmente abaladas, você continua funcionando. Isso não é indiferença. É uma forma de sentir que faz tudo acontecer por dentro, fora do alcance de quem está olhando.
 
-O lado que a maioria das pessoas com esse perfil não percebe: você provavelmente é quem todo mundo chama quando a situação fica séria. Não porque você pediu esse papel, mas porque demonstrou, repetidamente, que aguenta. E agora esse papel é esperado de você automaticamente.
+O que a maioria das pessoas com esse perfil não percebe: você provavelmente é quem todo mundo chama quando a situação fica séria. Não porque você pediu esse papel — mas porque demonstrou, repetidamente, que aguenta. E agora esse papel é esperado de você automaticamente.
 
 O problema não é aguentar. O problema é que aguentar por muito tempo, sem espaço para processar, cria um acúmulo. E esse acúmulo não aparece como choro ou crise. Aparece como distância das pessoas que você ama, como cansaço que não passa com descanso, como a sensação de que você está sempre dando e raramente recebendo de volta.`,
   },
