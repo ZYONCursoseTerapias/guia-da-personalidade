@@ -142,7 +142,7 @@ export default function Results() {
             {/* What is it */}
             <div className="space-y-1">
               <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider">O que é este traço?</p>
-              <p className="text-gray-600 text-sm leading-relaxed">{dominantDesc?.what}</p>
+              <p className="text-gray-600 text-sm leading-loose">{dominantDesc?.what}</p>
             </div>
 
             {/* Their level */}
@@ -152,7 +152,7 @@ export default function Results() {
               </p>
               <div className="bg-green-50 border-l-4 rounded-r-xl p-4 space-y-3" style={{ borderColor: dominantColor }}>
                 {(dominantDesc?.[dominantLevel] || '').split('\n\n').map((para, i) => (
-                  <p key={i} className="text-gray-700 text-sm leading-relaxed">{para}</p>
+                  <p key={i} className="text-gray-700 text-sm leading-loose">{para}</p>
                 ))}
               </div>
             </div>
@@ -221,7 +221,7 @@ export default function Results() {
             <p className="text-brand-light text-xs font-medium tracking-widest uppercase">Próximo passo</p>
             <h3 className="text-2xl font-bold">Entenda o seu mapa completo</h3>
           </div>
-          <div className="text-green-100 leading-relaxed max-w-md mx-auto text-sm space-y-2">
+          <div className="text-green-100 leading-loose max-w-md mx-auto text-sm space-y-2">
             {ctaText.split('\n').map((line, i) => <p key={i}>{line}</p>)}
           </div>
           <a
