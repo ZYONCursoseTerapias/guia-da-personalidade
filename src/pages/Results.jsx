@@ -150,8 +150,10 @@ export default function Results() {
               <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
                 Seu resultado — <span style={{ color: dominantColor }}>{dominantLevel}</span>
               </p>
-              <div className="bg-green-50 border-l-4 rounded-r-xl p-4" style={{ borderColor: dominantColor }}>
-                <p className="text-gray-700 text-sm leading-relaxed">{dominantDesc?.[dominantLevel]}</p>
+              <div className="bg-green-50 border-l-4 rounded-r-xl p-4 space-y-3" style={{ borderColor: dominantColor }}>
+                {(dominantDesc?.[dominantLevel] || '').split('\n\n').map((para, i) => (
+                  <p key={i} className="text-gray-700 text-sm leading-relaxed">{para}</p>
+                ))}
               </div>
             </div>
 

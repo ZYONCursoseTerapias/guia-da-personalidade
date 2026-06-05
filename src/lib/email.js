@@ -1,4 +1,5 @@
-import { pillars, classifyPillar } from '../data/questions'
+import { pillars, classifyPillar, classifySubscale } from '../data/questions'
+import { pillarDescriptions } from '../data/descriptions'
 
 const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID
 const TEMPLATE_ADMIN = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
@@ -24,14 +25,6 @@ async function sendEmail(templateId, params) {
 }
 
 export async function sendResultEmail({ name, email, scores }) {
-  const summary = pillars
-    .map((p) => {
-      const score = scores[p.id]?.total ?? 0
-      const { label } = classifyPillar(score)
-      return `${p.name}: ${score} pts (${label})`
-    })
-    .join('\n')
-
   const dominantPillar = pillars.reduce((best, p) => {
     const score = scores[p.id]?.total ?? 0
     return score > (scores[best.id]?.total ?? 0) ? p : best
@@ -43,23 +36,42 @@ export async function sendResultEmail({ name, email, scores }) {
   const dominantFacets = dominantPillar.subscales
     .map((sub) => {
       const subScore = scores[dominantPillar.id]?.subscales?.[sub.id] ?? 0
-      const { label } = classifyPillar(subScore)
+      const { label } = classifySubscale(subScore)
       return `${sub.name}: ${subScore}/20 (${label})`
     })
     .join('\n')
 
+  // Resultado completo com todos os traços e todas as facetas (para Sandra)
+  const fullDetail = pillars
+    .map((p) => {
+      const total = scores[p.id]?.total ?? 0
+      const { label } = classifyPillar(total)
+      const facets = p.subscales
+        .map((sub) => {
+          const ss = scores[p.id]?.subscales?.[sub.id] ?? 0
+          const { label: sl } = classifySubscale(ss)
+          return `  ${sub.name}: ${ss}/20 (${sl})`
+        })
+        .join('\n')
+      return `${p.name}: ${total} pts (${label})\n${facets}`
+    })
+    .join('\n\n')
+
+  const desc = pillarDescriptions[dominantPillar.id]
+  const dominantText = (desc?.[dominantLabel] || '').replace(/\n\n/g, '\n\n')
+
   const date = new Date().toLocaleDateString('pt-BR')
 
-  // E-mail para Sandra (notificação de nova resposta)
+  // E-mail para Sandra — resultado completo com todos os traços e facetas
   await sendEmail(TEMPLATE_ADMIN, {
     to_name: 'Sandrä Costa',
     client_name: name,
     client_email: email,
-    summary,
+    full_detail: fullDetail,
     date,
   })
 
-  // E-mail para a cliente (resultado com traço dominante)
+  // E-mail para a cliente — traço dominante com descrição completa
   if (TEMPLATE_CLIENT) {
     await sendEmail(TEMPLATE_CLIENT, {
       to_name: name,
@@ -68,6 +80,8 @@ export async function sendResultEmail({ name, email, scores }) {
       dominant_trait: dominantPillar.name,
       dominant_score: `${dominantScore} pts`,
       dominant_level: dominantLabel,
+      dominant_what: desc?.what || '',
+      dominant_text: dominantText,
       dominant_facets: dominantFacets,
       date,
     })
