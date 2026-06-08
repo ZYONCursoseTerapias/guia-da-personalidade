@@ -1,5 +1,5 @@
 import { pillars, classifyPillar, classifySubscale } from '../data/questions'
-import { pillarDescriptions } from '../data/descriptions'
+import { pillarDescriptions, facetDescriptions } from '../data/descriptions'
 
 const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID
 const TEMPLATE_ADMIN = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
@@ -37,9 +37,27 @@ export async function sendResultEmail({ name, email, scores }) {
     .map((sub) => {
       const subScore = scores[dominantPillar.id]?.subscales?.[sub.id] ?? 0
       const { label } = classifySubscale(subScore)
-      return `${sub.name}: ${subScore}/20 (${label})`
+      const facetDesc = facetDescriptions[sub.id]
+      const facetText = facetDesc?.[label] || ''
+      return `${sub.name}: ${subScore}/20 (${label})\n${facetText}`
     })
-    .join('\n')
+    .join('\n\n')
+
+  const otherTraits = pillars
+    .filter((p) => p.id !== dominantPillar.id)
+    .map((p) => {
+      const total = scores[p.id]?.total ?? 0
+      const { label } = classifyPillar(total)
+      const facets = p.subscales
+        .map((sub) => {
+          const ss = scores[p.id]?.subscales?.[sub.id] ?? 0
+          const { label: sl } = classifySubscale(ss)
+          return `  ${sub.name}: ${ss}/20 (${sl})`
+        })
+        .join('\n')
+      return `${p.name}: ${total} pts (${label})\n${facets}`
+    })
+    .join('\n\n')
 
   // Resultado completo com todos os traços e todas as facetas (para Sandra)
   const fullDetail = pillars
@@ -83,6 +101,7 @@ export async function sendResultEmail({ name, email, scores }) {
       dominant_what: desc?.what || '',
       dominant_text: dominantText,
       dominant_facets: dominantFacets,
+      other_traits: otherTraits,
       date,
     })
   }
