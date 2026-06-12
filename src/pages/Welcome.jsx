@@ -85,12 +85,12 @@ export default function Welcome() {
             <button onClick={() => navigate('/registro')} className="btn-primary text-lg px-12 py-4">
               Iniciar meu Teste
             </button>
-            <p className="text-xs text-gray-400 mt-4">Gratuito · Confidencial · Resultado imediato</p>
+            <p className="text-xs text-brand-dark mt-4">Gratuito · Confidencial · Resultado imediato</p>
           </div>
         </div>
       </main>
 
-      <footer className="py-6 text-center text-xs text-gray-400">
+      <footer className="py-6 text-center text-xs text-brand-dark">
         © {new Date().getFullYear()} Sandrä Costa · Terapeuta Holística / Comportamental
       </footer>
     </div>
