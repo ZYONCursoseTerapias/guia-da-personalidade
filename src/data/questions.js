@@ -103,7 +103,7 @@ export const pillars = [
       },
       {
         id: 'realizacoes',
-        name: 'Esforço por Realizações',
+        name: 'Reforço por Realizações',
         questions: [
           { id: 37, text: 'Sou movida por metas e objetivos.', inverted: false },
           { id: 38, text: 'Me dedico de verdade para alcançar o que quero.', inverted: false },
@@ -123,7 +123,7 @@ export const pillars = [
       },
       {
         id: 'deliberacao',
-        name: 'Deliberação',
+        name: 'Ponderação',
         questions: [
           { id: 45, text: 'Penso nas consequências antes de tomar uma decisão.', inverted: false },
           { id: 46, text: 'Tomo decisões com cuidado, sem pressa.', inverted: false },
@@ -180,7 +180,7 @@ export const pillars = [
       },
       {
         id: 'excitacao',
-        name: 'Busca por Excitação',
+        name: 'Busca por Sensações',
         questions: [
           { id: 65, text: 'Gosto de experimentar coisas que nunca fiz antes.', inverted: false },
           { id: 66, text: 'Procuro experiências que me tirem da zona de conforto.', inverted: false },
@@ -284,7 +284,7 @@ export const pillars = [
       },
       {
         id: 'hostilidade',
-        name: 'Hostilidade',
+        name: 'Raiva',
         questions: [
           { id: 101, text: 'Me irrito com facilidade.', inverted: false },
           { id: 102, text: 'Perco a paciência rápido.', inverted: false },
@@ -304,7 +304,7 @@ export const pillars = [
       },
       {
         id: 'autoconsciencia',
-        name: 'Autoconsciência',
+        name: 'Constrangimento',
         questions: [
           { id: 109, text: 'Me preocupo muito com o que as pessoas pensam de mim.', inverted: false },
           { id: 110, text: 'Críticas me afetam bastante.', inverted: false },
@@ -324,7 +324,7 @@ export const pillars = [
       },
       {
         id: 'vulnerabilidade',
-        name: 'Vulnerabilidade',
+        name: 'Vulnerabilidade ao Estresse',
         questions: [
           { id: 117, text: 'O estresse me derruba com facilidade.', inverted: false },
           { id: 118, text: 'Tenho dificuldade em lidar com situações de muita pressão.', inverted: false },
